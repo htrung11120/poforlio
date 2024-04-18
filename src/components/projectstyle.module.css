@@ -1,0 +1,42 @@
+.intro {
+  margin-top: 40px;
+}
+.heading {
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: 700;
+}
+.body {
+  font-size: 24px;
+  font-weight: 400;
+}
+.body p {
+  color: rgb(71, 70, 70);
+}
+.techStack,
+.container {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.icon {
+  width: 35px;
+  height: 35px;
+}
+.container p {
+  border: solid 2px black;
+  padding: 10px;
+  border-radius: 8px;
+}
+.container p:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,36 @@
+.container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 300px;
+}
+.heading {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-weight: 700;
+}
+p {
+  font-size: 26px;
+}
+a:visited {
+  color: black;
+}
+.contactContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+}
+.contactInfor {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

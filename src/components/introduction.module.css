@@ -1,0 +1,87 @@
+.container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  margin-left: 120px;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+.textContainer {
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  font-size: 22px;
+  padding-bottom: 30px;
+  border-bottom: solid 3px transparent; /* Initially transparent */
+  animation: revealBorder 1.5s linear 8s forwards; /* Animation to reveal border */
+}
+
+.hello {
+  font-size: 60px;
+  font-weight: 500;
+  width: 60%;
+  opacity: 0; /* Initially hidden */
+  animation: typing 1.5s steps(22) 2s,
+    blink 0.75s step-end 1s infinite alternate, fadeIn 1s 2s forwards; /* Add fadeIn animation */
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid black;
+}
+
+.name {
+  color: #808080;
+  font-weight: 400;
+  animation: focus-in-expand-fwd 2s linear 3s both;
+}
+
+.name span {
+  color: #000000c2;
+  font-weight: 600;
+}
+
+.selfIntro {
+  color: #404040;
+  animation: focus-in-expand-fwd 3s linear 5s both;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes focus-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    transform: translateZ(-800px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+@keyframes revealBorder {
+  to {
+    border-color: rgba(0, 0, 0, 0.589); /* Reveal border color */
+  }
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1; /* Fade in */
+  }
+}

@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.name {
+  font-size: 30px;
+  font-weight: 600;
+  color: #404040;
+  padding: 4px;
+  transition: transform 0.4s ease; /* Added transition property */
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+.name:hover {
+  transform: scale(1.2); /* Corrected from scale to transform */
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 20px;
+  color: #6e6d6d;
+  font-weight: 300;
+  padding-right: 40px;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+.list li {
+  position: relative;
+  text-decoration: none;
+}
+.list li:hover {
+  color: #6e6d6d;
+  font-weight: 500;
+  cursor: pointer;
+}
+.list li::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #6e6d6d;
+  transform: scaleX(0);
+  transition: transform 0.4s ease;
+}
+.list li:hover::before {
+  transform: scaleX(1);
+}
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}

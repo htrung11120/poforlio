@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 120px;
+  height: 100vh;
+}
+
+.heading {
+  color: #404040;
+  font-size: 50px;
+  margin-bottom: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.projectContainer {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  font-size: 28px;
+  color: #252525;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  font-size: 22px;
+  color: #6e6d6d;
+  font-weight: 500;
+  padding-right: 40px;
+}
+.listItem {
+  width: fit-content;
+  padding-bottom: 10px;
+}
+.list li {
+  position: relative;
+  text-decoration: none;
+}
+
+.list li:hover {
+  color: #0e0e0e;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.list li::before,
+.list li::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 0; /* Initially set width to 0 */
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #6e6d6d;
+  transition: width 0.3s ease-out; /* Only transition the width property */
+}
+
+.list li:hover::before,
+.list li:hover::after {
+  width: 100%; /* Set width to 100% on hover */
+}
+
+.listItemClicked {
+  border-bottom: 2px solid #444444;
+}
