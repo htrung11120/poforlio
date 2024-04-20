@@ -11,12 +11,12 @@ export default function About() {
     <div className={Style.container} id="about">
       <p className={Style.heading}>About Me</p>
       <p className={Style.paragrpah}>
-        Embark on a digital journey with me—a full-stack web developer and
-        software enthusiast with a medical science background. With precision
-        and a knack for problem-solving, I merge technology and creativity to
-        build captivating digital experiences. Fuelled by a curiosity for
-        travel, gaming, and new flavors, I bring a fresh perspective to coding.
-        Let's connect and create something extraordinary!
+        Join me on a digital voyage as a frontend web developer and software
+        enthusiast with a background in mechanical engineering. Utilizing
+        precision and problem-solving skills, I blend technology and creativity
+        to craft immersive digital experiences. Fueled by a passion for travel,
+        gaming, and culinary exploration, I offer a unique perspective to
+        coding. Let's collaborate and bring forth extraordinary creations!
       </p>
     </div>
   );

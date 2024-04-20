@@ -8,8 +8,8 @@ export default function Introduction() {
           My name is <span>Hoai Tran</span>
         </p>
         <p className={Styled.selfIntro}>
-          I am a Full Stack Developer with a passion to create new things.
-          Welcome to my portfolio, let's create something remarkable together.
+          I am a FrontEnd developer with a passion to create new things. Welcome
+          to my portfolio, let's create something remarkable together.
         </p>
       </div>
     </div>
