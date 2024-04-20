@@ -3,6 +3,8 @@
   flex-direction: column;
   margin: 0 120px;
   height: 100vh;
+    animation: tracking-in-contract 1s cubic-bezier(0.215, 0.61, 0.355, 1) 13s both;
+
 }
 
 .heading {
@@ -66,4 +68,17 @@
 
 .listItemClicked {
   border-bottom: 2px solid #444444;
+}
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
 }

@@ -61,6 +61,8 @@ img {
 }
 .backToTopButton p {
   writing-mode: vertical-lr;
+}.backToTopButton :hover{
+  scale: 1.2;
 }
 a {
   color: #000000;

@@ -2,7 +2,7 @@ import SkillSets from "./SkillSets";
 
 export default function Skills() {
   return (
-    <div>
+    <div id="skills">
       <SkillSets />
     </div>
   );

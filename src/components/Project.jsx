@@ -5,7 +5,7 @@ import Audiophile from "./Audiophile";
 import ProductFeedBack from "./ProductFeedBack";
 
 export default function Project() {
-  const [clickedItem, setClickedItem] = useState(0); // Set initial state to 0
+  const [clickedItem, setClickedItem] = useState(0); 
 
   const handleClick = (index) => {
     setClickedItem(index === clickedItem ? null : index);

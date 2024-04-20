@@ -1,5 +1,12 @@
 import Style from "./about.module.css";
 export default function About() {
+  function myFunction() {
+    if (window.pageYOffset >= 50) {
+      header.classList.add("animate");
+    } else {
+      header.classList.remove("animate");
+    }
+  }
   return (
     <div className={Style.container} id="about">
       <p className={Style.heading}>About Me</p>

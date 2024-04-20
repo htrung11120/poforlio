@@ -3,7 +3,9 @@
   align-items: center;
   height: 100vh;
   margin-left: 120px;
+  animation: tracking-in-contract 1s cubic-bezier(0.215, 0.61, 0.355, 1) 9s both;
 }
+
 .heading {
   font-size: 50px;
   font-weight: 700;
@@ -17,4 +19,17 @@
   font-size: 22px;
   color: rgb(110, 109, 109);
   padding: 0 10%;
+}
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
 }

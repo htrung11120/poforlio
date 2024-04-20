@@ -38,7 +38,7 @@ function App() {
       {visible && (
         <div className="backToTopButton" onClick={scrollToTop}>
           <IoMdArrowRoundUp />
-          <p>To Top</p>
+          <p>Top To</p>
         </div>
       )}
       <Home />
