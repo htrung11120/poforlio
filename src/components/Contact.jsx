@@ -25,7 +25,7 @@ export default function Contact() {
             <p className={Styled.resume}>GitHub</p>
           </div>
         </a>
-        <a href="">
+        <a href="https://flowcv.com/resume/sl789k6hca" target="_blank">
           <div className={Styled.contactContainer}>
             <IoIosPaper className={Styled.icon} />
             <p className={Styled.resume}>Resume</p>
