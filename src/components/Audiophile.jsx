@@ -8,10 +8,21 @@ export default function Audiophile() {
     <div className={Styled.intro}>
       <p className={Styled.heading}>Audiophile E-commerce Website</p>
       <div className={Styled.body}>
-        <p>
-          This is an e-commerce website frontend built with React, Tailwind CSS,
-          HTML, and JavaScript.
-        </p>
+        <ul>
+          <li className={Styled.listItem}>
+            Developed the frontend with React, Tailwind CSS, HTML, and
+            JavaScript.
+          </li>
+          <li className={Styled.listItem}>
+            Designed and implemented user interfaces.
+          </li>
+          <li className={Styled.listItem}>
+            Integrated responsive layouts for optimal viewing across devices.
+          </li>
+          <li className={Styled.listItem}>
+            Enhanced interactivity to improve user engagement and experience.
+          </li>
+        </ul>
         <div className={Styled.techStack}>
           <SiReact className={Styled.icon} />
           <SiReactrouter className={Styled.icon} />

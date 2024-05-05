@@ -3,8 +3,8 @@
   flex-direction: column;
   margin: 0 120px;
   height: 100vh;
-    animation: tracking-in-contract 1s cubic-bezier(0.215, 0.61, 0.355, 1) 13s both;
-
+  animation: tracking-in-contract 1s cubic-bezier(0.215, 0.61, 0.355, 1) 13s
+    both;
 }
 
 .heading {
@@ -16,7 +16,7 @@
 }
 
 .projectContainer {
-  margin-top: 80px;
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
   gap: 100px;
@@ -25,6 +25,7 @@
 }
 
 .list {
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   gap: 32px;

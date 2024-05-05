@@ -8,11 +8,25 @@ export default function ProductFeedBack() {
     <div className={Styled.intro}>
       <p className={Styled.heading}>Product FeedBack App</p>
       <div className={Styled.body}>
-        <p>
-          This is an application designed to monitor customer feedback, allowing
-          users to filter feedback by category. It was built using React, Styled
-          Components, Axios, and LocalStorage
-        </p>
+        <ul>
+          <li className={Styled.listItem}>
+            Built using React for frontend development.
+          </li>
+          <li className={Styled.listItem}>
+            Utilized Styled Components for enhanced styling.
+          </li>
+          <li className={Styled.listItem}>
+            Integrated Axios for handling HTTP requests.
+          </li>
+          <li className={Styled.listItem}>
+            Implemented LocalStorage for data persistence.
+          </li>
+          <li className={Styled.listItem}>
+            Enables users to filter feedback by category for streamlined
+            monitoring and analysis.
+          </li>
+        </ul>
+
         <div className={Styled.techStack}>
           <SiReact className={Styled.icon} />
           <SiReactrouter className={Styled.icon} />
