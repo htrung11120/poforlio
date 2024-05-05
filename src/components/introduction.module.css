@@ -10,12 +10,13 @@
 }
 
 .textContainer {
-  width: 340px;
+  width: 450px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 10px;
   font-size: 22px;
+  line-height:50px;
   padding-bottom: 30px;
   border-bottom: solid 3px transparent; /* Initially transparent */
   animation: revealBorder 1.5s linear 8s forwards; /* Animation to reveal border */
