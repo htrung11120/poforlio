@@ -59,9 +59,44 @@
     opacity: 1;
   }
 }
-
+.icon {
+  width: 60px;
+  height: 60px;
+  opacity: 0.7;
+}
+.mobileNav {
+  display: none;
+}
+.mobileNavItem {
+  display: none;
+}
 @media only screen and (max-width: 600px) {
   nav {
     display: none;
+  }
+  .mobileNavItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+    margin-top: 40px;
+    font-size: 24px;
+  }
+  .MobileList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .mobileNav {
+    display: block;
+    padding: 0 50px;
+  }
+
+  .icon:hover {
+    cursor: pointer;
+    opacity: 1;
   }
 }
