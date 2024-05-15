@@ -1,7 +1,6 @@
 .container {
   height: 80vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   padding: 40px;
   margin-left: 120px;
@@ -16,7 +15,7 @@
   justify-content: center;
   gap: 10px;
   font-size: 22px;
-  line-height:50px;
+  line-height: 50px;
   padding-bottom: 30px;
   border-bottom: solid 3px transparent; /* Initially transparent */
   animation: revealBorder 1.5s linear 8s forwards; /* Animation to reveal border */
@@ -87,6 +86,20 @@
   }
 }
 @media only screen and (max-width: 600px) {
-.container {
-margin-top: 100px;}
+  .container {
+    margin-top: 100px;
+    width: 100vw;
+    padding: 0;
+    margin-left: 0;
+  }
+  .textContainer {
+    width: 100%;
+    padding: 0;
+  }
+  .hello {
+    font-size: 28px;
+  }
+  .selfIntro {
+    font-size: 20px;
+  }
 }

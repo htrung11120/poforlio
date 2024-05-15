@@ -1,4 +1,3 @@
-// Project.js
 import { useState } from "react";
 import Styled from "./project.module.css";
 import Audiophile from "./Audiophile";

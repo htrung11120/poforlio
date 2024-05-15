@@ -5,8 +5,8 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 300px;
-    animation: tracking-in-contract 1s cubic-bezier(0.215, 0.61, 0.355, 1) 15s both;
-
+  animation: tracking-in-contract 1s cubic-bezier(0.215, 0.61, 0.355, 1) 15s
+    both;
 }
 .heading {
   text-align: center;
@@ -51,6 +51,15 @@ a:visited {
   }
 }
 @media only screen and (max-width: 600px) {
-.container {
-margin-top: 300px;}
+  .container {
+    margin-top: 0;
+  }.heading {
+
+    font-size: 24px;
+  }.icon {
+  width: 20px;
+  height: 20px;
+}.contactContainer p{
+  font-size: 18px;
+}
 }

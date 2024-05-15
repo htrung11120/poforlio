@@ -3,6 +3,7 @@
   flex-direction: column;
   margin: 0 120px;
   height: 100vh;
+  width: 100vw;
   animation: tracking-in-contract 1s cubic-bezier(0.215, 0.61, 0.355, 1) 13s
     both;
 }
@@ -81,5 +82,27 @@
   100% {
     letter-spacing: normal;
     opacity: 1;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 0;
+  }
+  .projectContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .heading {
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+  }
+  .list {
+    margin: 30px 0;
+    font-size: 18px;
+    padding: 0;
+  }
+  .listItem {
+    font-size: 18px;
   }
 }

@@ -45,3 +45,28 @@ a {
 
   padding-bottom: 16px;
 }
+
+@media only screen and (max-width: 600px) {
+
+.intro {
+  margin-top: 10px;
+}
+.heading {
+  margin-bottom: 20px;
+  font-size: 18px;
+ 
+}.icon {
+  width: 25px;
+  height: 25px;
+}
+.listItem{
+font-size: 16px;
+}.techStack {
+  margin: 20px 0;
+}.container{
+  margin-top: 20px;
+}
+.container p{
+  font-size: 20px;
+}
+}

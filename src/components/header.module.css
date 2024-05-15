@@ -71,6 +71,12 @@
   display: none;
 }
 @media only screen and (max-width: 600px) {
+  .container {
+    width: 100vw;
+  }
+  .name {
+    font-size: 24px;
+  }
   nav {
     display: none;
   }
@@ -94,7 +100,10 @@
     display: block;
     padding: 0 50px;
   }
-
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
   .icon:hover {
     cursor: pointer;
     opacity: 1;
