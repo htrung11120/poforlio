@@ -53,13 +53,16 @@ a:visited {
 @media only screen and (max-width: 600px) {
   .container {
     margin-top: 0;
-  }.heading {
-
+  }
+  .heading {
+    align-items: center;
     font-size: 24px;
-  }.icon {
-  width: 20px;
-  height: 20px;
-}.contactContainer p{
-  font-size: 18px;
-}
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+  .contactContainer p {
+    font-size: 18px;
+  }
 }
